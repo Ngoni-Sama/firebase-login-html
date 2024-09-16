@@ -3,8 +3,12 @@ import {getAuth, onAuthStateChanged, signOut} from "https://www.gstatic.com/fire
 import{getFirestore, getDoc, doc} from "https://www.gstatic.com/firebasejs/10.11.1/firebase-firestore.js"
 
 const firebaseConfig = {
-    //YOUR COPIED FIREBASE PART SHOULD BE HERE
- //WATCH THIS VIDEO TO LEARN WHAT TO PUT HERE   https://youtu.be/_Xczf06n6x0
+ apiKey: "AIzaSyDn6WbXzDYx-gZ1KInvzGD1bkLGdHdt9h0",
+    authDomain: "login-with-firebase-data-84ad9.firebaseapp.com",
+    projectId: "login-with-firebase-data-84ad9",
+    storageBucket: "login-with-firebase-data-84ad9.appspot.com",
+    messagingSenderId: "939532832658",
+    appId: "1:939532832658:web:df10ae63062aabf692fb4b"
   };
  
   // Initialize Firebase
